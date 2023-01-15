@@ -1,0 +1,205 @@
+/* start css styles */
+body{
+    width: 100%;
+    max-width: 1940px;
+    
+margin-left: 0 auto;
+margin-left: 50px;
+
+    font-family: font-family: 'Poppins', sans-serif;
+    
+    
+}
+.main{
+    background-color:  rgba(255, 144, 14, 0.1);
+}
+.container{
+    width: 1100px;
+    margin: 0px auto;
+    
+    
+}
+.architect{
+
+height: 53px;
+font-weight: 700;
+color: #131313;
+}
+
+.header{
+    width: 100%;
+}
+nav{
+    width: 1618px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-bar{
+    width: 477px;
+    height: 50px;
+    left: 1203px;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+/* header and buttonn */
+.header{
+    text-align: center;
+width: 862px;
+height: 225px;
+
+}
+.title-name{
+    font-weight: 700;
+    font-size: 64px;
+}
+.button{
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 160px;
+    margin-bottom: 30px;
+    height: 45px;
+    color: white;
+    background-color: orange;
+
+}
+/*------------------ banner ---------- */
+.banner img{
+    margin-top: 120px;
+    width: 1000px;
+    height: 500px;
+justify-items: center;
+    border-radius: 8px;
+
+}
+.quick-list{
+    color: gray;
+
+}
+.features{
+    color: orangered;
+}
+.section-head{
+    font-size: 45px;
+    font-weight: 700px;
+}
+
+/* ------images sectionn--------- */
+.mother{
+    margin-top: 10px;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+}
+.images-section{
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
+    
+}
+.iamges-section-info{
+    margin-top: 110px;
+}
+
+/* -----------------------------another div and features---------------- */
+.father{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+.lady-architect img{
+    height: 60%;
+}
+.blogs{
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+}
+.lorem{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.button-section{
+    background-color: orange;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    height: 100px;
+    width: 180px;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+}
+.span{
+    font-size: 15px;
+}
+   /*-------------------- box icon------------------- */
+
+
+   .box1 , .box2 , .box3 , .box4{
+    gap: 5px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 160px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    
+   }
+   .box1 , .box2 , .box3 , .box4{
+    text-align: center;
+    padding: 5px;
+
+
+       
+       }
+    
+         }
+        .box-icon p{
+            color: gray;
+            font-size: 18px;
+        }
+
+        .box-icon{
+            display: flex;
+            gap: 70px;
+            margin-bottom: 100px;
+            
+        }
+        
+        .box1 img{
+            height: 35px;
+            width: 30px;
+            margin-top: 10px;
+        }
+        .box2 img{
+            height: 35px;
+            width: 30px;
+            margin-top: 10px;
+
+        }
+        .box3 img{
+            height: 35px;
+            width: 30px;
+            margin-top: 10px;
+        }
+        .box4 img{
+            height: 35px;
+            width: 30px;
+            margin-top: 10px;
+        }
+/* sponsor style */
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 50px;
+}
